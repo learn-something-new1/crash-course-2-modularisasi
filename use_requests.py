@@ -13,3 +13,13 @@ except Exception as e:
     print(f'There is a error{e}')
  #   print('There is a error', e)
 print('Program ended')
+
+import requests
+
+url = 'https://det ik.com'
+try:
+    requests.get(url)
+    print('\nSuccess!')
+except Exception as e:
+    print('\nThere is an error', e)
+print('Program Ended')
